@@ -11,8 +11,15 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
-	// Copy the contents of the `public` folder to the output folder
-	// For example, `./public/css/` ends up in `_site/css/`
+	// =================================================================
+	// LA CORREZIONE È QUI
+	// Questa singola riga dice a Eleventy di copiare l'INTERA cartella "public"
+	// nel sito finale. In questo modo, il percorso "/public/img/nome.png"
+	// creato dal CMS funzionerà correttamente.
+	eleventyConfig.addPassthroughCopy("public");
+	// =================================================================
+
+	// Manteniamo le altre regole di copia specifiche se necessario
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
@@ -117,7 +124,7 @@ module.exports = function(eleventyConfig) {
 
 		// These are all optional:
 		dir: {
-			input: "content",          // default: "."
+			input: "content",         // default: "."
 			includes: "../_includes",  // default: "_includes"
 			data: "../_data",          // default: "_data"
 			output: "_site"
