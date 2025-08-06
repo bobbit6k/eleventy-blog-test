@@ -1,5 +1,5 @@
 ---
-title: Copiato e Incollato da Notion
+title: Copiato e Incollato da Notion - Tag
 description: Davvero.
 date: 2025-08-05
 draft: false
@@ -43,7 +43,6 @@ tags:
 **Opere di difesa costiera (con valutazione dei tempi)**
 
 *   Impegno ad attuare (anche insieme ad altri soggetti: amministrazioni, concessionari limitrofi, etc.) opere di difesa costiera (con monitoraggio, aggiornamento e manutenzione delle opere nel tempo)
-    
 
 **PIANO DI GESTIONE**
 
