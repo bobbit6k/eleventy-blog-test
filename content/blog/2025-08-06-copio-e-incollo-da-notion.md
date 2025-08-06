@@ -5,6 +5,7 @@ date: 2025-08-06
 draft: false
 tags:
   - tabella
+  - random
 ---
 # **Ciao,**
 
