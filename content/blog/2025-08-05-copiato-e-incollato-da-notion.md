@@ -4,7 +4,7 @@ description: Davvero.
 date: 2025-08-05
 draft: false
 tags:
-  - random
+  - random, ciccio
 ---
 # Criteri di selezione (sintesi)
 
