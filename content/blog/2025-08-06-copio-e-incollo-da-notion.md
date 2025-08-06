@@ -7,3 +7,8 @@ draft: false
 # **Ciao,**
 
 Come Stai!
+
+| test | valore | tag |
+| --- | --- | --- |
+| dsfsd | df  | 123 |
+| dfds | dfsdf | 123 |
